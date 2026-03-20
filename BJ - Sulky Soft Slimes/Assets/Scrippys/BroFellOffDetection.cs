@@ -8,6 +8,8 @@ public class BroFellOffDetection : MonoBehaviour
     public int AmmountOFGuys;
     public int AmmountOFFallGuys = 0;
 
+    public int AmmountOFFallALLOWED = 1;
+
     public void Start()
     {
         AmmountOFGuys = GameObject.FindGameObjectsWithTag("good").Length;
@@ -22,7 +24,7 @@ public class BroFellOffDetection : MonoBehaviour
     }
     public void Update()
     {
-        if (AmmountOFFallGuys == AmmountOFGuys)
+        if (AmmountOFFallGuys == AmmountOFFallALLOWED)
         {
             losescrip.YouLoser();
         }
