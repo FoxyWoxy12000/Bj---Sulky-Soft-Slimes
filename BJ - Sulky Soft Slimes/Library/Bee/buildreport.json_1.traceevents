@@ -1,494 +1,357 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1771710756553839, "dur": 7215784, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1771710756554078, "dur": 4825, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1771710756558904, "dur": 31810, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1771710756590716, "dur": 507508, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1771710757098226, "dur": 6663739, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1771710763761973, "dur": 7648, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1771710763776252, "dur": 174, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
-{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1771710756982921, "dur": 97528, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1771710756983771, "dur": 35283, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1771710757066609, "dur": 4003, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1771710757070615, "dur": 9827, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1771710757071203, "dur": 8250, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1771710757084461, "dur": 1090, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1771710757083764, "dur": 1810, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1771710763777364, "dur": 3333, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1773966411441186, "dur": 93139, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1773966411441202, "dur": 14723, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1773966411455927, "dur": 65532, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1773966411521461, "dur": 12864, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1773966411535517, "dur": 11, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1771710757143928, "dur":2062, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710757145997, "dur":54, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1771710757146070, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1771710757146082, "dur":427, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1771710757146533, "dur":565, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710757147098, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763636437, "dur":1721, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763638159, "dur":744, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763638904, "dur":39, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763638944, "dur":148, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639093, "dur":25, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639118, "dur":89, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639208, "dur":23, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639231, "dur":110, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639341, "dur":133, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639475, "dur":68, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639544, "dur":29, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639574, "dur":63, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639637, "dur":15, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639652, "dur":45, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639697, "dur":13, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639710, "dur":54, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639765, "dur":14, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639779, "dur":45, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639824, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639836, "dur":67, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639903, "dur":20, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763639923, "dur":98, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763640021, "dur":16, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763640038, "dur":79, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763640118, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763640262, "dur":13, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763640523, "dur":22227, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1771710757146663, "dur":442, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710757147109, "dur":4652, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710757151772, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1771710757151779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710757153394, "dur":645, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1771710757154044, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1771710757154133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710757154542, "dur":2575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1771710757157122, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1771710757157290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710757162859, "dur":3740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1771710757166659, "dur":3720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757170385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710757171277, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757173546, "dur":22782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757196334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710757197354, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757199575, "dur":6519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757206099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710757206108, "dur":3474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757209645, "dur":11599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757221249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710757221284, "dur":4173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757225527, "dur":7595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757233128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710757233139, "dur":2833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757236022, "dur":5263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757241289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710757241299, "dur":6761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757248134, "dur":14442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757262581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710757262593, "dur":4511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757267188, "dur":599543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757866782, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710757866928, "dur":13842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710757881307, "dur":1270154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710759151508, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710759151596, "dur":13699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710759165744, "dur":1762510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710760928295, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710760928375, "dur":35974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1771710760964855, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1771710760965315, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710760965387, "dur":135274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1771710761101274, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1771710761101844, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1771710761101920, "dur":61777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1771710761164455, "dur":2472697, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1771710757146732, "dur":394, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1771710757147126, "dur":4642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1771710757151773, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1771710757152158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1771710757167951, "dur":4090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1771710757172118, "dur":140305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes.exe" }}
-,{ "pid":12345, "tid":2, "ts":1771710757312429, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1771710757312440, "dur":261645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes.exe" }}
-,{ "pid":12345, "tid":2, "ts":1771710757574619, "dur":3149296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1771710760725563, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1771710760725654, "dur":26414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1771710760752655, "dur":1202883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1771710761955582, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1771710761955667, "dur":13710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1771710761969840, "dur":1666860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771710757146678, "dur":433, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771710757147111, "dur":4656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771710757151773, "dur":19602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1771710757171379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771710757171394, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1771710757173480, "dur":22935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710757196419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771710757197565, "dur":5113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710757203343, "dur":5137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710757208485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771710757208497, "dur":3216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710757211777, "dur":6043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710757217825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771710757217837, "dur":2837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710757220736, "dur":5758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710757226502, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771710757226518, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710757229387, "dur":7320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710757236712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771710757236722, "dur":4350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710757241124, "dur":3924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710757245053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771710757245062, "dur":8726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710757253855, "dur":6400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710757260260, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771710757260270, "dur":2436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710757262763, "dur":806255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710758069066, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771710758069385, "dur":15611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710758085738, "dur":1372737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710759458729, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771710759458814, "dur":18555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710759477834, "dur":1722021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710761199905, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1771710761199992, "dur":29972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":3, "ts":1771710761230465, "dur":2406378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1771710757146716, "dur":403, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1771710757147119, "dur":4650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1771710757151772, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1771710757152012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1771710757155741, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1771710757157770, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1771710757158032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1771710757162035, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1771710757164092, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1771710757164279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1771710757164291, "dur":3930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1771710757168283, "dur":58256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1771710757226544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1771710757226551, "dur":30179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1771710757256791, "dur":5953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1771710757262749, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1771710757262759, "dur":6197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1771710757269009, "dur":1000848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":4, "ts":1771710758269904, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1771710758269993, "dur":355329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":4, "ts":1771710758625887, "dur":2958239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1771710761584173, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1771710761584473, "dur":29346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1771710761614410, "dur":2022563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710757146738, "dur":393, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710757147132, "dur":4633, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710757151773, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1771710757152150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710757167217, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1771710757170668, "dur":13617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1771710757184289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710757184297, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1771710757186472, "dur":9855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757196334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710757197544, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757199725, "dur":5140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757204871, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710757204888, "dur":2539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757207487, "dur":5680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757213173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710757213190, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757215388, "dur":5756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757221149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710757221163, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757223112, "dur":4845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757227964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710757227976, "dur":5222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757233261, "dur":4853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757238121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710757238132, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757240439, "dur":4165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757244634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710757244678, "dur":6835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757251613, "dur":6599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757258216, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710757258254, "dur":2199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757260505, "dur":6450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757266963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710757266978, "dur":7306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710757274346, "dur":859952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710758134348, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710758134441, "dur":214679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710758349646, "dur":1299760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710759649458, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710759649545, "dur":11113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710759661087, "dur":449755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710760110892, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710760110979, "dur":81738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710760193234, "dur":3429060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710763622346, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1771710763622438, "dur":13214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1771710763636114, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":5, "ts":1771710763636139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1771710757146763, "dur":375, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1771710757147138, "dur":4624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1771710757151772, "dur":70099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1771710757221875, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1771710757222339, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1771710757224381, "dur":8313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771710757232704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1771710757232720, "dur":2790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771710757235564, "dur":5084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771710757240653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1771710757240662, "dur":6515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771710757247247, "dur":6883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771710757254135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1771710757254150, "dur":6564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771710757260764, "dur":302222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771710757563035, "dur":63717, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1771710757626860, "dur":68425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771710757695819, "dur":5248646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771710762944501, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1771710762944596, "dur":14615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":6, "ts":1771710762959737, "dur":676799, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771710757146791, "dur":352, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771710757147143, "dur":4621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771710757151774, "dur":22129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1771710757173934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771710757173953, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1771710757175987, "dur":20597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757196589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771710757197608, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757200721, "dur":4142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757204871, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771710757204888, "dur":3524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757208475, "dur":5482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757213962, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771710757213971, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757216398, "dur":4922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757221325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771710757221333, "dur":3969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757225440, "dur":7254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757232703, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771710757232720, "dur":2900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757235682, "dur":5398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757241084, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771710757241093, "dur":3646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757244800, "dur":6436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757251241, "dur":389, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771710757251640, "dur":3217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757254903, "dur":6223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757261131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771710757261141, "dur":8612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710757269803, "dur":2935485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710760205333, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771710760205418, "dur":13255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710760219170, "dur":2341148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710762560354, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1771710762560425, "dur":12865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":7, "ts":1771710762573885, "dur":1062724, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771710757146814, "dur":333, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771710757147147, "dur":4626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771710757151774, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1771710757151966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771710757155311, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1771710757157467, "dur":18921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1771710757176392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771710757176405, "dur":2382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1771710757178868, "dur":17572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757196466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771710757197554, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757201216, "dur":4951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757206171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771710757206300, "dur":4175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757210529, "dur":4687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757215222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771710757215233, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757217103, "dur":4333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757221441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771710757221450, "dur":2857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757224377, "dur":5448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757229831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771710757229847, "dur":4628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757234530, "dur":5981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757240515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771710757240559, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757244370, "dur":6693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757251071, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771710757251255, "dur":4967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757256288, "dur":6458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757262751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771710757262760, "dur":8445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710757271264, "dur":1298923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710758570229, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771710758570525, "dur":175807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710758746816, "dur":2381488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710761128348, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1771710761128432, "dur":46933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":8, "ts":1771710761177253, "dur":2459781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710757146836, "dur":316, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710757147152, "dur":4611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710757151773, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1771710757152073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710757156360, "dur":3896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1771710757160320, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1771710757160514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710757162114, "dur":2076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":9, "ts":1771710757164936, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":9, "ts":1771710757165338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710757165348, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":9, "ts":1771710757167315, "dur":22089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757189410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710757189570, "dur":5448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757195079, "dur":5184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757200285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710757201472, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757203994, "dur":5021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757209019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710757209027, "dur":3486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757212566, "dur":5927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757218498, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710757218508, "dur":3101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757221669, "dur":4840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757226514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710757226524, "dur":3427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757230027, "dur":5674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757235741, "dur":147, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710757235899, "dur":2764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757238722, "dur":5665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757244391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710757244404, "dur":3069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757247528, "dur":6826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757254359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710757254370, "dur":4650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757260173, "dur":6826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757267003, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710757267012, "dur":9469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710757276544, "dur":1161468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710758438063, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710758438155, "dur":20666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710758459531, "dur":862964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710759322546, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710759322638, "dur":11507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710759334708, "dur":1499550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710760834305, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710760834396, "dur":12725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":9, "ts":1771710760847603, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":9, "ts":1771710760848118, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710760848950, "dur":14028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":9, "ts":1771710760863484, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1771710760863968, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710760864044, "dur":37895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":9, "ts":1771710760904227, "dur":575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":9, "ts":1771710760904845, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710760904926, "dur":15982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":9, "ts":1771710760921420, "dur":1410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":9, "ts":1771710760923055, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710760923123, "dur":23789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":9, "ts":1771710760947443, "dur":117231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":9, "ts":1771710761064779, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710761064862, "dur":36074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":9, "ts":1771710761101528, "dur":10988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/boot.config" }}
-,{ "pid":12345, "tid":9, "ts":1771710761112556, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1771710761112630, "dur":14977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/boot.config" }}
-,{ "pid":12345, "tid":9, "ts":1771710761128109, "dur":2509147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710757146856, "dur":301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710757147157, "dur":4618, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710757151775, "dur":19523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1771710757171303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710757171413, "dur":1392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1771710757172856, "dur":1415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":10, "ts":1771710757174276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710757177298, "dur":6321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":10, "ts":1771710757183675, "dur":12654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757196335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710757197529, "dur":2922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757200502, "dur":4945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757205452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710757205461, "dur":3593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757209108, "dur":4658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757213772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710757213793, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757217092, "dur":4779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757221876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710757221885, "dur":5227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757227191, "dur":6146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757233341, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710757233352, "dur":2720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757236125, "dur":4977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757241107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710757241116, "dur":3345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757244516, "dur":6806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757251327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710757251338, "dur":3401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757254808, "dur":5409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757260222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710757260235, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710757261938, "dur":1304746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710758566732, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710758566818, "dur":359095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710758926427, "dur":949373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710759875849, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710759875941, "dur":42565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710759919006, "dur":3487333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710763406470, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1771710763406722, "dur":23122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":10, "ts":1771710763430415, "dur":206055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771710757146875, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771710757147161, "dur":4610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771710757151773, "dur":21711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1771710757173488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771710757173513, "dur":2775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1771710757176414, "dur":20103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757196522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771710757197579, "dur":4374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757202103, "dur":6425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757208533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771710757208543, "dur":3184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757211785, "dur":6257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757218047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771710757218056, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757220819, "dur":6250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757227074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771710757227082, "dur":3787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757230943, "dur":5352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757236300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771710757236309, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757238619, "dur":5773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757244397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771710757244406, "dur":7008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757251484, "dur":6564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757258056, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771710757258075, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757260617, "dur":6386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757267008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771710757267017, "dur":5556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710757272714, "dur":3701309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710760974064, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771710760974144, "dur":64950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1771710761039672, "dur":569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":11, "ts":1771710761040280, "dur":37, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1771710761040385, "dur":82398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":11, "ts":1771710761123786, "dur":2512635, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1771710757146892, "dur":273, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1771710757147165, "dur":4611, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1771710757151777, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":12, "ts":1771710757152003, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1771710757155380, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":12, "ts":1771710757158163, "dur":16793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1771710757174962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1771710757175061, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1771710757176746, "dur":19778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1771710757196529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1771710757197585, "dur":4126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1771710757201769, "dur":4672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1771710757206446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1771710757206456, "dur":3783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1771710757210296, "dur":999851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":12, "ts":1771710758210201, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1771710758210294, "dur":15850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":12, "ts":1771710758226793, "dur":504638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":12, "ts":1771710758731484, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1771710758731581, "dur":77279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":12, "ts":1771710758809438, "dur":3607924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":12, "ts":1771710762417409, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1771710762417495, "dur":20942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":12, "ts":1771710762438949, "dur":1197821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1771710763685909, "dur":29001, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1771710763781580, "dur": 76769, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1771710763776160, "dur": 82446, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1773966411483449, "dur":1831, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411485287, "dur":116, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1773966411485418, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1773966411485432, "dur":472, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1773966411485978, "dur":780, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411486758, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503660, "dur":154, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503814, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503837, "dur":69, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503906, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503913, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503915, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503921, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503922, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503927, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503929, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503934, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503936, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503940, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503942, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503948, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503950, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503954, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503956, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503961, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503963, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503967, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503969, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503974, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503976, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503980, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411503999, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411504019, "dur":1853, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1773966411486183, "dur":585, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411486772, "dur":6960, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411493745, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1773966411493748, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411493944, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1773966411493947, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411494029, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1773966411494199, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411494286, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773966411494667, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411494761, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773966411494840, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411494935, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773966411495031, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411495123, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773966411495205, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411495312, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773966411495390, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411495484, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773966411495562, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411495639, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773966411495780, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411495903, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773966411495992, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411496068, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773966411496174, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411496307, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1773966411496462, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411496550, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1773966411496648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1773966411497992, "dur":5568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1773966411503623, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1773966411503624, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411486216, "dur":565, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411486782, "dur":6956, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411493746, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1773966411493879, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411494031, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1773966411494195, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411494337, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773966411494695, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411494821, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773966411494908, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411494993, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773966411495096, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411495181, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773966411495262, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411495365, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773966411495442, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411495517, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773966411495593, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411495746, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773966411495865, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411495947, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773966411496063, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411496145, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773966411496228, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411496306, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773966411496397, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411496477, "dur":576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1773966411497053, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1773966411497114, "dur":6541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773966411486206, "dur":567, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773966411486774, "dur":6961, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773966411493745, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1773966411494014, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773966411494107, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1773966411494331, "dur":384, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773966411494716, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773966411494819, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773966411494986, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773966411495104, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773966411495180, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773966411495317, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773966411495408, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773966411495512, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773966411495593, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773966411495770, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773966411495885, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773966411496045, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773966411496129, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773966411496207, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773966411496386, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1773966411496457, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773966411496534, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1773966411496626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1773966411497833, "dur":2153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1773966411500051, "dur":3614, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773966411486247, "dur":548, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773966411486795, "dur":6942, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773966411493745, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1773966411493998, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773966411494089, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773966411494249, "dur":352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773966411494601, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773966411494730, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773966411494837, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773966411495005, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773966411495145, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773966411495226, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773966411495294, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773966411495364, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773966411495473, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773966411495548, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773966411495615, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773966411495776, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773966411495876, "dur":1087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1773966411496964, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1773966411497025, "dur":6629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773966411486278, "dur":522, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773966411486801, "dur":6933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773966411493746, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1773966411493931, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773966411494107, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes.exe" }}
+,{ "pid":12345, "tid":5, "ts":1773966411494220, "dur":389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773966411494610, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773966411494748, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773966411494923, "dur":661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773966411495585, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773966411495655, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773966411495776, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773966411495893, "dur":765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1773966411496658, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773966411496815, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1773966411496908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1773966411500502, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1773966411502069, "dur":1602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773966411486314, "dur":496, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773966411486810, "dur":6923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773966411493745, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1773966411493899, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773966411493983, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1773966411494070, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773966411494224, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1773966411494622, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773966411494759, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773966411494859, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773966411495094, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773966411495182, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773966411495322, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773966411495427, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773966411495592, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773966411495756, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773966411495911, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773966411496001, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773966411496083, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773966411496197, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773966411496286, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1773966411496372, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773966411496576, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1773966411496781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1773966411499166, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1773966411501491, "dur":2171, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773966411486339, "dur":477, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773966411486816, "dur":6917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773966411493746, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1773966411493888, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773966411494028, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1773966411494138, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773966411494236, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773966411494597, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773966411494727, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773966411494835, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773966411494948, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773966411495076, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773966411495244, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773966411495345, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773966411495426, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773966411495511, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773966411495605, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773966411495825, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773966411495906, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773966411496013, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773966411496178, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773966411496256, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773966411496374, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1773966411496453, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773966411496701, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1773966411496829, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1773966411499832, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1773966411501559, "dur":2110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773966411486368, "dur":451, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773966411486819, "dur":6924, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773966411493744, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1773966411493888, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773966411494010, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1773966411494241, "dur":436, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773966411494677, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773966411494786, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773966411494915, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773966411495096, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773966411495195, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773966411495276, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773966411495398, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773966411495494, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773966411495563, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773966411495644, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773966411495773, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773966411495869, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773966411495955, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773966411496057, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773966411496226, "dur":618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1773966411496844, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773966411496916, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1773966411497109, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1773966411497206, "dur":6447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773966411486391, "dur":437, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773966411486829, "dur":6909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773966411493747, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1773966411493912, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773966411494011, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1773966411494193, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773966411494342, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773966411494736, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773966411494912, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773966411495014, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773966411495120, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773966411495198, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773966411495271, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773966411495344, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773966411495453, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773966411495527, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773966411495654, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773966411495775, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773966411495892, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773966411496306, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773966411496396, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1773966411496484, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773966411496599, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1773966411496853, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1773966411496940, "dur":6716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773966411486419, "dur":417, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773966411486836, "dur":6909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773966411493745, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1773966411493972, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773966411494058, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773966411494240, "dur":400, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773966411494641, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773966411494768, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773966411494843, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773966411494920, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773966411494999, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773966411495078, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773966411495154, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773966411495270, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773966411495345, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773966411495471, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773966411495558, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773966411495762, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773966411495875, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1773966411496595, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773966411496683, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1773966411496768, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1773966411498537, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1773966411500874, "dur":2792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773966411486443, "dur":399, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773966411486842, "dur":6905, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773966411493747, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1773966411493881, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773966411494029, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1773966411494200, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773966411494286, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773966411494680, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773966411494783, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773966411494876, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773966411495001, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773966411495153, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773966411495263, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773966411495349, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773966411495478, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773966411495558, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773966411495634, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773966411495771, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773966411495858, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773966411496236, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773966411496365, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773966411496446, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773966411496520, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1773966411496765, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773966411496855, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1773966411496926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1773966411501223, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1773966411502645, "dur":1014, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411486463, "dur":382, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411486845, "dur":6894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411493744, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1773966411493944, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411494042, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773966411494136, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411494228, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773966411494589, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411494675, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773966411494795, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411494897, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773966411494997, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411495159, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773966411495241, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411495322, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773966411495397, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411495479, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773966411495570, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411495763, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773966411495970, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411496048, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773966411496193, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411496274, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773966411496354, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411496429, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1773966411496510, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411496587, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey builds/BJ - Sulky Soft Slimes_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1773966411496814, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1773966411496921, "dur":6734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1773966411507686, "dur":1248, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1773966411535664, "dur": 973, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1773966411535503, "dur": 1198, "ph": "X", "name": "Write chrome-trace events", "args": {} },

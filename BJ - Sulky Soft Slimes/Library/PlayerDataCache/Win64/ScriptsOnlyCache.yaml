@@ -1,6 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BroFellOffDetection
+    - MouseManager
+    - YouLose
     - YuetilitySoftbody.YueSoftbodyPhysics
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
@@ -14,6 +17,14 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   serializedClasses:
     Assembly-CSharp:
     - YuetilitySoftbody.PDTuning
@@ -24,8 +35,21 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineVirtualCameraBase/TransitionParams
     - Cinemachine.LensSettings
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
-  methodsToPreserve: []
+    - UnityEngine.Events.PersistentListenerMode
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: YouLose
+    methodName: Retry
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -54,23 +78,47 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2492}
+      Script: {instanceID: 1724}
     - Class: 114
-      Script: {instanceID: 2526}
+      Script: {instanceID: 2656}
     - Class: 114
-      Script: {instanceID: 2658}
+      Script: {instanceID: 2688}
     - Class: 114
-      Script: {instanceID: 4740}
+      Script: {instanceID: 2754}
     - Class: 114
-      Script: {instanceID: 5626}
+      Script: {instanceID: 2820}
     - Class: 114
-      Script: {instanceID: 6812}
+      Script: {instanceID: 2960}
+    - Class: 114
+      Script: {instanceID: 3246}
+    - Class: 114
+      Script: {instanceID: 4902}
+    - Class: 114
+      Script: {instanceID: 5504}
+    - Class: 114
+      Script: {instanceID: 5788}
+    - Class: 114
+      Script: {instanceID: 5818}
+    - Class: 114
+      Script: {instanceID: 6298}
+    - Class: 114
+      Script: {instanceID: 6632}
+    - Class: 114
+      Script: {instanceID: 6976}
+    - Class: 114
+      Script: {instanceID: 29950}
+    - Class: 114
+      Script: {instanceID: 29956}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 134
       Script: {instanceID: 0}
@@ -84,7 +132,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
     - Class: 218
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -941,6 +997,12 @@ ScriptsOnlyBuild:
     className: UnityOnDragMessageListener
   - hash:
       serializedVersion: 2
+      Hash: ea6582879917b69ba2e4db5b85727455
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MouseManager
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1179,8 +1241,20 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ecf42e4ec38f7ea9fc6100260ad9f95f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BroFellOffDetection
+  - hash:
+      serializedVersion: 2
+      Hash: e770a5211e2458acc866657a54805629
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: YouLose
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/codeninja17/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey
+  playerPath: C:/Users/coden/Documents/GitHub/Bj---Sulky-Soft-Slimes/Bj - slimey
     builds/BJ - Sulky Soft Slimes.exe
