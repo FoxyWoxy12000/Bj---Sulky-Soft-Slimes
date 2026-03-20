@@ -1,4 +1,4 @@
-//  Written by Marcel Remmers © for Yuetility 10.06.22
+//  Written by Marcel Remmers ï¿½ for Yuetility 10.06.22
 
 using System.Collections;
 using System.Collections.Generic;
@@ -49,7 +49,7 @@ namespace YuetilitySoftbody
         public float physicsVertexRadius = 0.05f;
 
         [HideInInspector]
-        public PhysicMaterial colliderMaterial;
+        public PhysicsMaterial colliderMaterial;
 
         [Header("Physics Vertex Tuning")]
 

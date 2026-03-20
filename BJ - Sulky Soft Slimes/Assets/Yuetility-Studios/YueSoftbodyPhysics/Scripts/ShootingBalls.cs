@@ -25,7 +25,7 @@ namespace YuetilitySoftbody
             {
                 GameObject temp = Instantiate<GameObject>(ballPrefab, transform.position, Quaternion.Euler(0, 0, 0));
 
-                temp.GetComponent<Rigidbody>().velocity = transform.forward * shootingSpeed;
+                temp.GetComponent<Rigidbody>().linearVelocity = transform.forward * shootingSpeed;
                 Destroy(temp, 5f);
                 counter = 0.1f;
             }

@@ -1,4 +1,4 @@
-//  Written by Marcel Remmers © for Yuetility 10.06.22
+//  Written by Marcel Remmers ï¿½ for Yuetility 10.06.22
 using UnityEngine;
 using UnityEditor;
 using YuetilitySoftbody;
@@ -65,7 +65,7 @@ namespace YuetilitySoftbody
                 softbodyPhysics.softbodyLayer = EditorGUILayout.IntField("Softbody Layer", softbodyPhysics.softbodyLayer);
 
             softbodyPhysics.physicsVertexRadius = EditorGUILayout.FloatField("Physics Vertex Radius", softbodyPhysics.physicsVertexRadius);
-            softbodyPhysics.colliderMaterial = (PhysicMaterial)EditorGUILayout.ObjectField("Physics Material", softbodyPhysics.colliderMaterial, typeof(PhysicMaterial), true);
+            softbodyPhysics.colliderMaterial = (PhysicsMaterial)EditorGUILayout.ObjectField("Physics Material", softbodyPhysics.colliderMaterial, typeof(PhysicsMaterial), true);
 
         }
     }
